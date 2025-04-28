@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="creator_name">by Edwin Sanabria</string>
+    <string name="mensaje_bienvenida">¡Bienvenido a Luxury Wash! Tu vehículo limpio, sin complicaciones. Agenda tu lavado en un par de toques y relajate mientras hacemos la magia</string>
+    <string name="saludo_luxury">Bienvenido a Luxury</string>
+    <string name="solicitud_credenciales">Ingresa tus credenciales</string>
+    <string name="solicita_correo">Ingresa tu correo</string>
+    <string name="solicitud_password">Ingresa tu contraseña</string>
+    <string name="olvidaste_password">¿Olvidaste tu contraseña?</string>
+    <string name="btn_inicio_sesion">Iniciar Sesión</string>
+    <string name="iniciar_con_google">Iniciar Sesión con Google</string>
+    <string name="tv_no_cuenta">¿No tienes una cuenta?</string>
+    <string name="tv_registro">Registrate</string>
+</resources>
