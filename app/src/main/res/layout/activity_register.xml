@@ -161,7 +161,7 @@
         app:layout_constraintVertical_bias="0.947" />
 
     <TextView
-        android:id="@+id/tv_homeRegister"
+        android:id="@+id/tv_homeRegistertwo"
         android:layout_width="90dp"
         android:layout_height="20dp"
         android:text="Iniciar sesión"
