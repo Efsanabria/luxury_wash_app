@@ -34,14 +34,14 @@
 
     <TextView
         android:id="@+id/tv_back"
+        style="@style/EditTextRounded2"
         android:layout_width="410dp"
-        android:layout_height="450dp"
+        android:layout_height="470dp"
         android:layout_marginTop="20dp"
-        android:background="@color/cream"
         android:text=""
         app:layout_constraintTop_toBottomOf="@+id/tv_bienvenidos"
         app:strokeColor="@color/black"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="0dp"/>
 
     <TextView
         android:id="@+id/tv_saludo_home"
@@ -107,7 +107,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView" />
+        app:layout_constraintTop_toTopOf="@+id/tv_recuperarPass"/>
 
     <Button
         android:id="@+id/btn_google_home"
@@ -131,7 +131,7 @@
         app:strokeWidth="1dp" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tv_recuperarPass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="246dp"
@@ -153,11 +153,12 @@
         android:text="@string/tv_no_cuenta"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.191"
+        app:layout_constraintHorizontal_bias="0.194"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_google_home" />
 
     <TextView
+        android:id="@+id/tv_registrarse"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"

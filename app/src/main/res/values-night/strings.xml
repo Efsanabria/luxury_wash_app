@@ -11,4 +11,12 @@
     <string name="iniciar_con_google">Iniciar Sesión con Google</string>
     <string name="tv_no_cuenta">¿No tienes una cuenta?</string>
     <string name="tv_registro">Registrate</string>
+    <string name="doc_register">Ingresa tu número de documento</string>
+    <string name="nom_register">Ingresa tus nombres</string>
+    <string name="lastName_register">Ingresa tus apellidos</string>
+    <string name="mail_register">Ingresa tu cuenta de correo</string>
+    <string name="cel_register">Ingresa tu número de celular</string>
+    <string name="password_register">Ingresa tu contraseña</string>
+    <string name="conf_password_register">Confirma tu contraseña</string>
+    <string name="btn_guardar">Guardar</string>
 </resources>

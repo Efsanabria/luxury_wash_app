@@ -25,6 +25,10 @@
             android:exported="false"/>
         <activity android:name=".Activities.HomeActivity"
             android:exported="false"/>
+        <activity android:name=".Activities.RegisterActivity"
+            android:exported="false"/>
+        <activity android:name=".Activities.PasswordActivity"
+            android:exported="false"/>
 
         <meta-data
             android:name="preloaded_fonts"

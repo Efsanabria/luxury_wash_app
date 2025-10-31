@@ -5,4 +5,9 @@
         <item name="android:background">@drawable/edit_text_rounded</item>
         <item name="android:padding">15dp</item>
     </style>
+
+    <style name="EditTextRounded2" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/edit_text_rounded2</item>
+        <item name="android:padding">15dp</item>
+    </style>
 </resources>
