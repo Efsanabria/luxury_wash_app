@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home_ico"
+        android:title="Inicio"/>
+
+    <item
+        android:id="@+id/nav_services"
+        android:icon="@drawable/services_ico"
+        android:title="Servicios"/>
+
+    <item
+        android:id="@+id/nav_car"
+        android:icon="@drawable/car_ico"
+        android:title="Carrito"/>
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/profile_ico"
+        android:title="Perfil"/>
+
+</menu>
