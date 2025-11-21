@@ -85,14 +85,23 @@ class HomeActivity : AppCompatActivity() {
 
                 // Si todo está OK → pasar a ServicesActivity
                 runOnUiThread {
+
                     Toast.makeText(
                         this@HomeActivity,
                         "Bienvenido ${user.names}",
                         Toast.LENGTH_SHORT
                     ).show()
 
-                    val intent = Intent(this@HomeActivity, ServicesActivity::class.java)
-                    startActivity(intent)
+                    val isAdmin = user.role == 1
+
+                    if (isAdmin) {
+                        val intent = Intent(this@HomeActivity, AdminActivity::class.java)
+                        startActivity(intent)
+                    } else {
+                        val intent = Intent(this@HomeActivity, ServicesActivity::class.java)
+                        startActivity(intent)
+                    }
+
                     finish()
                 }
             }

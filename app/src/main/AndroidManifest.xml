@@ -31,6 +31,8 @@
             android:exported="false"/>
         <activity android:name=".Activities.ServicesActivity"
             android:exported="false"/>
+        <activity android:name=".Activities.AdminActivity"
+            android:exported="false"/>
 
         <meta-data
             android:name="preloaded_fonts"

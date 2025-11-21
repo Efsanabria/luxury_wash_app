@@ -12,5 +12,6 @@ data class User(
     val email: String,
     val celphone: String,
     val password: String,
-    val status: Int = 1
+    val status: Int = 1,
+    val role: Int = 0
 )

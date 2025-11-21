@@ -71,6 +71,7 @@ class RegisterActivity : AppCompatActivity() {
                         ).show()
                     }
                 } else {
+                    val isAdmin = email == "admin@luxurywash.com"
                     val user = User(
                         document = document,
                         names = names,
@@ -78,7 +79,8 @@ class RegisterActivity : AppCompatActivity() {
                         email = email,
                         celphone = celphone,
                         password = password,
-                        status = 1 // ACTIVO por defecto
+                        status = 1,
+                        role = if (isAdmin) 1 else 0
                     )
 
                     userDao.insertUser(user)
